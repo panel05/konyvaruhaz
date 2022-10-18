@@ -4,6 +4,12 @@ class KonyvModel {
     constructor() {
         console.log("KonyvModel");
     }
+    adatModosit(adat){
+        console.log("modellben modosit",adat)
+    }
+    adatTorol(adat){
+        console.log("modellben torol",adat)
+    }
 
     adatBe(vegpont, myCallBack) {
         fetch(vegpont, {
